@@ -1,2 +1,2 @@
 # Datascience-Project
-## Project title - Accident hotspot detection and risk prewdiction using machine learning
+## Project title - Human Activity Recognisition Using Smart Phones
