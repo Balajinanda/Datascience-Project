@@ -7,7 +7,7 @@ This project focuses on Human Activity Recognition (HAR) using data collected fr
 ![image](https://github.com/user-attachments/assets/7ec1cb98-f0f8-4667-9fba-44d003e73af9)
 
 ## Table Of Contents
-1. Overview
+1. Introduction
 2. Data Inspection
 3. Handling Missing Values
 4. EDA analysis
