@@ -11,4 +11,6 @@ This project focuses on Human Activity Recognition (HAR) using data collected fr
 2. Data Inspection
 3. Handling Missing Values
 4. EDA analysis
-5. Machine learning models
+5. Segmentation
+6. Methodology
+7. Comparision of models performance
