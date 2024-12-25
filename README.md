@@ -2,7 +2,7 @@
 ## Project Title : Human Activity Recognisition Using Smart Phones
 
 ## Project Description  
-This project focuses on Human Activity Recognition (HAR) using data collected from wearable and environmental sensors. The objective is to classify various physical activities performed by individuals, such as walking, running, sitting, and more, based on sensor data. The PAMAP2 dataset is used as the primary data source, and multiple machine learning and deep learning models have been implemented and compared for accurate activity classification.
+This project focuses on Human Activity Recognition (HAR) using data collected from wearable and environmental sensors. The objective is to classify various physical activities performed by individuals, such as walking, running, sitting, and more, based on sensor data. The PAMAP2 dataset is used as the primary data source, and deep learning models have been implemented and compared for accurate activity classification.
 
 ![image](https://github.com/user-attachments/assets/7ec1cb98-f0f8-4667-9fba-44d003e73af9)
 
@@ -14,3 +14,4 @@ This project focuses on Human Activity Recognition (HAR) using data collected fr
 5. Segmentation
 6. Methodology
 7. Comparision of models performance
+8. Predictions
