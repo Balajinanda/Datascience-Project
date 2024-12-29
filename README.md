@@ -15,8 +15,12 @@ This project focuses on Human Activity Recognition (HAR) using data collected fr
 6. Future Work
 7. References
 
+   
+
 ## 1.Introduction
 Human Activity Recognition (HAR) is a rapidly growing field with applications in healthcare, fitness tracking, smart homes, and workplace safety. By analyzing data from wearable sensors, HAR systems classify activities such as walking, running, and cycling. This project evaluates and optimizes several machine learning models to identify the best-performing architecture for HAR tasks.
+
+
 
 ## 2.Dataset Description
 
@@ -27,6 +31,8 @@ Data Collection: Data was gathered from wearable sensors (IMUs and heart rate mo
 Features: Timestamp, activity ID, heart rate, and sensor readings (acceleration, gyroscope, magnetometer).
 
 Preprocessing: Missing values were imputed, features normalized, and data segmented into fixed-size windows for time-series analysis.
+
+
 
 ## 3.Methodology
 
@@ -51,3 +57,23 @@ Model training: Optimized each model for HAR tasks using appropriate architectur
 Evaluation metrics: Accuracy, precision, recall, F1-score, and confusion matrices were used to assess performance.
 
 Hyperparameter tuning: Fine-tuned parameters such as layer units, dropout rates, and optimizers for LSTM and CNN-LSTM models.
+
+
+
+## 4.Results
+
+Best Models:
+LSTM:
+Accuracy: 94%
+Strength: Combines CNN's spatial analysis with LSTM's temporal modeling.
+CNN-LSTM Hybrid:
+Accuracy: 89%
+Strength: Combines CNN's spatial analysis with LSTM's temporal modeling.
+
+Key Findings:
+Hybrid models outperformed standalone architectures, highlighting the importance of combining spatial and temporal analysis.
+ANN and MLP models underperformed, showing limitations in capturing complex temporal patterns.
+
+Visualization:
+Detailed plots comparing accuracy, precision, recall, and F1-score for all models.
+Confusion matrices for analyzing model-specific misclassifications.
