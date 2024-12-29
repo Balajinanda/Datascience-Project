@@ -19,6 +19,7 @@ This project focuses on Human Activity Recognition (HAR) using data collected fr
 Human Activity Recognition (HAR) is a rapidly growing field with applications in healthcare, fitness tracking, smart homes, and workplace safety. By analyzing data from wearable sensors, HAR systems classify activities such as walking, running, and cycling. This project evaluates and optimizes several machine learning models to identify the best-performing architecture for HAR tasks.
 
 ## 2.Dataset Description
+
 Source: PAMAP2 Physical Activity Monitoring dataset from the UCI Machine Learning Repository.
 
 Data Collection: Data was gathered from wearable sensors (IMUs and heart rate monitors) placed on participants' hands, chest, and ankles. Activities included daily tasks like ironing, sitting, and walking.
@@ -26,3 +27,26 @@ Data Collection: Data was gathered from wearable sensors (IMUs and heart rate mo
 Features: Timestamp, activity ID, heart rate, and sensor readings (acceleration, gyroscope, magnetometer).
 
 Preprocessing: Missing values were imputed, features normalized, and data segmented into fixed-size windows for time-series analysis.
+
+## 3.Methodology
+
+Models Implemented:
+
+CNN: Captures spatial dependencies in sensor data.
+
+ANN and MLP: Baseline models for feature classification.
+
+RNN: Leverages sequential data relationships.
+
+LSTM: Advanced RNN variants for long-term dependencies.
+
+CNN-LSTM Hybrid: Combines spatial and temporal feature extraction.
+
+Key Steps:
+Data preprocessing: Filling missing values, normalizing data, and segmenting it for sequential models.
+
+Model training: Optimized each model for HAR tasks using appropriate architectures and loss functions.
+
+Evaluation metrics: Accuracy, precision, recall, F1-score, and confusion matrices were used to assess performance.
+
+Hyperparameter tuning: Fine-tuned parameters such as layer units, dropout rates, and optimizers for LSTM and CNN-LSTM models.
