@@ -14,3 +14,6 @@ This project focuses on Human Activity Recognition (HAR) using data collected fr
 5. Applications
 6. Future Work
 7. References
+
+## 1.Introduction
+Human Activity Recognition (HAR) is a rapidly growing field with applications in healthcare, fitness tracking, smart homes, and workplace safety. By analyzing data from wearable sensors, HAR systems classify activities such as walking, running, and cycling. This project evaluates and optimizes several machine learning models to identify the best-performing architecture for HAR tasks.
