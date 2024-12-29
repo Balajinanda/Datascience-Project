@@ -20,6 +20,9 @@ Human Activity Recognition (HAR) is a rapidly growing field with applications in
 
 ## 2.Dataset Description
 Source: PAMAP2 Physical Activity Monitoring dataset from the UCI Machine Learning Repository.
+
 Data Collection: Data was gathered from wearable sensors (IMUs and heart rate monitors) placed on participants' hands, chest, and ankles. Activities included daily tasks like ironing, sitting, and walking.
+
 Features: Timestamp, activity ID, heart rate, and sensor readings (acceleration, gyroscope, magnetometer).
+
 Preprocessing: Missing values were imputed, features normalized, and data segmented into fixed-size windows for time-series analysis.
