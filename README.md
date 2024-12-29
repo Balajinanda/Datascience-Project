@@ -8,10 +8,9 @@ This project focuses on Human Activity Recognition (HAR) using data collected fr
 
 ## Table Of Contents
 1. Introduction
-2. Data Inspection
-3. Handling Missing Values
-4. EDA analysis
-5. Segmentation
-6. Methodology
-7. Comparision of models performance
-8. Predictions
+2. Dataset Description
+3. Methodology
+4. Results
+5. Applications
+6. Future Work
+7. References
