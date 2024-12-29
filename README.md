@@ -43,6 +43,7 @@ LSTM: Advanced RNN variants for long-term dependencies.
 CNN-LSTM Hybrid: Combines spatial and temporal feature extraction.
 
 Key Steps:
+
 Data preprocessing: Filling missing values, normalizing data, and segmenting it for sequential models.
 
 Model training: Optimized each model for HAR tasks using appropriate architectures and loss functions.
