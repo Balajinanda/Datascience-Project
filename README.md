@@ -63,17 +63,49 @@ Hyperparameter tuning: Fine-tuned parameters such as layer units, dropout rates,
 ## 4.Results
 
 Best Models:
+
 LSTM:
+
 Accuracy: 94%
+
 Strength: Combines CNN's spatial analysis with LSTM's temporal modeling.
+
 CNN-LSTM Hybrid:
+
 Accuracy: 89%
+
 Strength: Combines CNN's spatial analysis with LSTM's temporal modeling.
 
 Key Findings:
+
 Hybrid models outperformed standalone architectures, highlighting the importance of combining spatial and temporal analysis.
+
 ANN and MLP models underperformed, showing limitations in capturing complex temporal patterns.
 
 Visualization:
+
 Detailed plots comparing accuracy, precision, recall, and F1-score for all models.
+
 Confusion matrices for analyzing model-specific misclassifications.
+
+
+
+## 5.Applications
+
+Healthcare: Monitoring patient mobility, detecting falls, and assisting in rehabilitation.
+
+Fitness Tracking: Providing detailed insights into exercise routines.
+
+Smart Homes: Enabling context-aware automation based on activity recognition.
+
+Industrial Safety: Ensuring compliance with safety protocols through activity monitoring.
+
+
+
+## 6.Future Work
+
+Dataset Augmentation: Include real-world, noisy data to improve generalization.
+
+Model Optimization: Explore lightweight models (e.g., MobileNet) for edge deployment.
+
+Multimodal Analysis: Combine wearable sensor data with audio or video inputs for richer context.
