@@ -13,7 +13,7 @@ This project focuses on Human Activity Recognition (HAR) using data collected fr
 4. Results
 5. Applications
 6. Future Work
-7. References
+  
 
    
 
